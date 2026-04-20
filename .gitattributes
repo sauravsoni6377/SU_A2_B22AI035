@@ -1,0 +1,5 @@
+*.wav binary
+*.pt binary
+*.npy binary
+*.arpa binary
+*.json linguist-generated=true

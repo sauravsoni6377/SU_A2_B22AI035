@@ -1,0 +1,49 @@
+torch>=2.1.0
+torchaudio>=2.1.0
+numpy>=1.24
+scipy>=1.11
+librosa>=0.10.1
+soundfile>=0.12
+pyyaml>=6.0
+tqdm>=4.66
+
+# STT / ASR
+openai-whisper>=20231117
+transformers>=4.38.0
+sentencepiece>=0.1.99
+
+# Denoising
+deepfilternet>=0.5.6
+noisereduce>=3.0.0
+
+# LID / feature extraction
+speechbrain>=1.0.0
+pyannote.audio>=3.1.0
+
+# Phonetics
+epitran>=1.25
+indic-nlp-library>=0.92
+# Fallback/manual IPA mapping used when epitran lacks a locale
+
+# TTS
+TTS>=0.22.0   # Coqui TTS (YourTTS / VITS)
+# MMS via transformers
+
+# Prosody
+pyworld>=0.3.4
+pysptk>=1.0.0
+
+# Anti-spoofing
+scikit-learn>=1.4
+spafe>=0.3.2  # LFCC / CQCC
+
+# YouTube download
+yt-dlp>=2024.3.10
+
+# Adversarial
+torchattacks>=3.5.1
+
+# Utilities
+matplotlib>=3.8
+jiwer>=3.0.3  # WER
+pymcd>=0.2.1  # MCD

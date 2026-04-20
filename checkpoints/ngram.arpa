@@ -1,0 +1,2318 @@
+\data\
+ngram 1=364
+ngram 2=618
+ngram 3=657
+ngram 4=664
+
+\1-grams:
+-0.82834	<s>
+-1.75040	speech
+-2.59550	understanding
+-2.19756	is
+-1.49859	the
+-2.89653	branch
+-1.89653	of
+-2.89653	artificial
+-2.89653	intelligence
+-2.29447	that
+-2.89653	studies
+-2.41940	automatic
+-2.19756	recognition
+-2.29447	speaker
+-2.89653	diarization
+-2.19756	synthesis
+-1.46516	and
+-2.89653	spoken
+-2.11837	language
+-1.30546	</s>
+-2.59550	signal
+-2.59550	processing
+-2.59550	pipeline
+-2.89653	begins
+-2.29447	with
+-2.89653	framing
+-2.89653	windowing
+-2.89653	computing
+-2.59550	short
+-2.19756	time
+-2.89653	fourier
+-2.59550	transform
+-2.59550	followed
+-2.11837	by
+-2.19756	mel
+-2.89653	filterbank
+-2.89653	logarithmic
+-2.89653	compression
+-2.41940	frequency
+-2.29447	cepstral
+-2.41940	coefficients
+-2.11837	are
+-2.89653	derived
+-2.41940	from
+-2.89653	discrete
+-2.89653	cosine
+-2.59550	log
+-2.89653	spectrogram
+-2.89653	cepstrum
+-2.59550	separates
+-2.89653	excitation
+-2.41940	vocal
+-2.41940	tract
+-2.89653	contribution
+-2.89653	liftering
+-2.89653	operation
+-2.89653	stochastic
+-2.11837	models
+-2.41940	such
+-2.19756	as
+-2.89653	hidden
+-2.59550	markov
+-2.89653	gaussian
+-2.89653	mixture
+-2.89653	were
+-2.89653	standard
+-2.05143	in
+-2.89653	classical
+-2.89653	modern
+-2.29447	end
+-1.85513	to
+-2.41940	systems
+-2.89653	use
+-2.89653	connectionist
+-2.89653	temporal
+-2.89653	classification
+-2.89653	transducer
+-2.59550	attention
+-2.59550	based
+-2.89653	encoder
+-2.59550	decoder
+-2.89653	architectures
+-2.89653	wav2vec
+-2.89653	2
+-2.89653	0
+-2.89653	hubert
+-2.89653	whisper
+-2.59550	self
+-2.59550	supervised
+-2.05143	or
+-2.89653	weakly
+-2.89653	encoders
+-2.89653	conformer
+-2.89653	combines
+-2.89653	convolution
+-2.89653	capture
+-2.89653	local
+-2.89653	global
+-2.89653	dependencies
+-2.89653	efficiently
+-2.59550	identification
+-2.89653	predict
+-2.29447	segments
+-2.19756	using
+-2.89653	i
+-2.59550	vectors
+-2.59550	x
+-2.41940	deep
+-2.41940	neural
+-2.89653	embeddings
+-2.59550	code
+-2.89653	switching
+-2.89653	occurs
+-2.89653	when
+-2.89653	bilingual
+-2.89653	speakers
+-2.89653	switch
+-2.59550	between
+-2.41940	languages
+-2.89653	within
+-2.59550	an
+-2.89653	utterance
+-2.89653	particularly
+-2.89653	common
+-2.89653	indian
+-2.89653	academic
+-2.89653	discourse
+-2.41940	text
+-2.89653	maps
+-2.59550	acoustic
+-2.41940	features
+-2.89653	tacotron
+-2.89653	fastspeech
+-2.89653	vits
+-2.89653	yourtts
+-1.81734	a
+-2.89653	vocoder
+-2.89653	hifigan
+-2.89653	waveglow
+-2.41940	voice
+-2.59550	cloning
+-2.89653	uses
+-2.59550	reference
+-2.59550	embedding
+-2.89653	d
+-2.59550	vector
+-2.89653	condition
+-2.59550	zero
+-2.59550	shot
+-2.89653	manner
+-2.89653	dynamic
+-2.89653	warping
+-2.89653	aligns
+-2.89653	two
+-2.89653	series
+-2.59550	different
+-2.89653	lengths
+-2.89653	widely
+-2.59550	used
+-2.41940	prosody
+-2.59550	transfer
+-2.89653	template
+-2.89653	matching
+-2.89653	fundamental
+-2.89653	f0
+-2.89653	energy
+-2.89653	contours
+-2.89653	characterise
+-2.89653	intonation
+-2.89653	international
+-2.41940	phonetic
+-2.89653	alphabet
+-2.89653	ipa
+-2.89653	provides
+-2.89653	uniform
+-2.89653	phonemic
+-2.89653	representation
+-2.89653	across
+-2.89653	grapheme
+-2.41940	phoneme
+-2.89653	g2p
+-2.89653	convert
+-2.89653	written
+-2.59550	into
+-2.59550	sequences
+-2.19756	for
+-2.89653	low
+-2.89653	resource
+-2.59550	like
+-2.89653	maithili
+-2.89653	santhali
+-2.89653	gondi
+-2.89653	bhojpuri
+-2.89653	we
+-2.89653	leverage
+-2.89653	cross
+-2.89653	lingual
+-2.89653	parallel
+-2.89653	corpora
+-2.41940	word
+-2.41940	error
+-2.41940	rate
+-2.89653	wer
+-2.89653	primary
+-2.59550	evaluation
+-2.89653	metric
+-2.89653	distortion
+-2.89653	mcd
+-2.89653	measures
+-2.59550	spectral
+-2.89653	distance
+-2.89653	synthesized
+-2.89653	equal
+-2.89653	eer
+-2.89653	balanced
+-2.89653	measure
+-2.89653	performance
+-2.89653	verification
+-2.59550	spoof
+-2.41940	detection
+-2.89653	anti
+-2.89653	spoofing
+-2.89653	countermeasures
+-2.89653	rely
+-2.59550	on
+-2.59550	linear
+-2.89653	lfcc
+-2.89653	constant
+-2.89653	q
+-2.89653	cqcc
+-2.89653	phase
+-2.59550	adversarial
+-2.89653	examples
+-2.59550	can
+-2.59550	be
+-2.89653	crafted
+-2.89653	fast
+-2.89653	gradient
+-2.89653	sign
+-2.89653	method
+-2.89653	fgsm
+-2.89653	fool
+-2.89653	classifiers
+-2.89653	imperceptible
+-2.89653	perturbations
+-2.59550	filter
+-2.89653	net
+-2.89653	performs
+-2.89653	real
+-2.89653	enhancement
+-2.59550	learning
+-2.59550	robust
+-2.59550	non
+-2.89653	stationary
+-2.29447	noise
+-2.89653	subtraction
+-2.89653	was
+-2.89653	proposed
+-2.89653	boll
+-2.89653	nineteen
+-2.89653	seventy
+-2.89653	nine
+-2.89653	suppressing
+-2.89653	additive
+-2.89653	subtracting
+-2.89653	estimated
+-2.89653	magnitude
+-2.89653	spectrum
+-2.89653	activity
+-2.89653	n
+-2.89653	gram
+-2.89653	assign
+-2.89653	probabilities
+-2.89653	assumption
+-2.89653	kneser
+-2.89653	ney
+-2.89653	smoothing
+-2.89653	constrained
+-2.89653	beam
+-2.89653	search
+-2.89653	logit
+-2.89653	biasing
+-2.89653	injects
+-2.89653	domain
+-2.89653	knowledge
+-2.89653	pretrained
+-2.89653	model
+-2.89653	teacher
+-2.89653	dictates
+-2.89653	students
+-2.89653	should
+-2.89653	focus
+-2.89653	machine
+-2.89653	linguistics
+-2.89653	three
+-2.89653	pillars
+-2.59550	course
+-2.89653	during
+-2.89653	assignment
+-2.89653	you
+-2.89653	will
+-2.89653	implement
+-2.89653	preprocessing
+-2.89653	transcription
+-2.89653	mapping
+-2.89653	translation
+-2.89653	integrates
+-2.89653	handling
+-2.89653	switched
+-2.89653	robustness
+-2.89653	requires
+-2.89653	below
+-2.89653	fifteen
+-2.59550	percent
+-2.89653	english
+-2.89653	twenty
+-2.89653	five
+-2.89653	hindi
+-2.89653	spectrograms
+-2.89653	banks
+-2.59550	formants
+-2.89653	key
+-2.89653	throughout
+-2.89653	modelled
+-2.89653	varying
+-2.89653	system
+-2.89653	excited
+-2.89653	periodic
+-2.89653	aperiodic
+-2.89653	source
+-2.89653	correspond
+-2.89653	resonant
+-2.89653	frequencies
+-2.89653	phonemes
+-2.89653	smallest
+-2.89653	units
+-2.89653	sound
+-2.89653	distinguish
+-2.59550	meaning
+-2.89653	allophones
+-2.89653	variants
+-2.89653	contexts
+-2.89653	includes
+-2.89653	pitch
+-2.89653	duration
+-2.89653	loudness
+-2.89653	patterns
+-2.89653	convey
+-2.89653	beyond
+-2.89653	words
+-2.89653	networks
+-2.89653	trained
+-2.89653	generalized
+-2.89653	loss
+-2.89653	angular
+-2.89653	margin
+-2.89653	losses
+-2.89653	aam
+-2.89653	softmax
+-2.89653	protects
+-2.89653	biometric
+-2.89653	replay
+-2.89653	conversion
+-2.89653	attacks
+
+\2-grams:
+-0.98239	<s> <s>
+-2.87448	<s> speech
+-2.87448	speech understanding
+-2.87448	understanding is
+-2.57345	is the
+-2.87448	the branch
+-2.87448	branch of
+-2.87448	of artificial
+-2.87448	artificial intelligence
+-2.87448	intelligence that
+-2.87448	that studies
+-2.87448	studies automatic
+-2.39736	automatic speech
+-2.39736	speech recognition
+-2.57345	recognition speaker
+-2.87448	speaker recognition
+-2.87448	speaker diarization
+-2.87448	diarization speech
+-2.57345	speech synthesis
+-2.57345	synthesis and
+-2.87448	and spoken
+-2.87448	spoken language
+-2.87448	language understanding
+-2.87448	understanding </s>
+-2.17551	<s> the
+-2.87448	the signal
+-2.57345	signal processing
+-2.87448	processing pipeline
+-2.87448	pipeline begins
+-2.87448	begins with
+-2.87448	with framing
+-2.87448	framing windowing
+-2.87448	windowing and
+-2.87448	and computing
+-2.87448	computing the
+-2.87448	the short
+-2.87448	short time
+-2.87448	time fourier
+-2.87448	fourier transform
+-2.87448	transform followed
+-2.57345	followed by
+-2.87448	by mel
+-2.87448	mel filterbank
+-2.87448	filterbank and
+-2.87448	and logarithmic
+-2.87448	logarithmic compression
+-2.87448	compression </s>
+-2.39736	<s> mel
+-2.87448	mel frequency
+-2.57345	frequency cepstral
+-2.39736	cepstral coefficients
+-2.87448	coefficients are
+-2.87448	are derived
+-2.87448	derived from
+-2.87448	from the
+-2.87448	the discrete
+-2.87448	discrete cosine
+-2.87448	cosine transform
+-2.87448	transform of
+-2.39736	of the
+-2.87448	the log
+-2.87448	log mel
+-2.87448	mel spectrogram
+-2.87448	spectrogram </s>
+-2.87448	the cepstrum
+-2.87448	cepstrum separates
+-2.87448	separates the
+-2.87448	the excitation
+-2.87448	excitation and
+-2.87448	and the
+-2.39736	the vocal
+-2.39736	vocal tract
+-2.87448	tract contribution
+-2.87448	contribution by
+-2.87448	by the
+-2.87448	the liftering
+-2.87448	liftering operation
+-2.87448	operation </s>
+-2.87448	<s> stochastic
+-2.87448	stochastic models
+-2.87448	models such
+-2.39736	such as
+-2.87448	as hidden
+-2.87448	hidden markov
+-2.87448	markov models
+-2.87448	models and
+-2.87448	and gaussian
+-2.87448	gaussian mixture
+-2.87448	mixture models
+-2.87448	models were
+-2.87448	were standard
+-2.87448	standard in
+-2.87448	in classical
+-2.87448	classical automatic
+-2.87448	recognition </s>
+-2.87448	<s> modern
+-2.87448	modern end
+-2.57345	end to
+-2.57345	to end
+-2.87448	end systems
+-2.87448	systems use
+-2.87448	use connectionist
+-2.87448	connectionist temporal
+-2.87448	temporal classification
+-2.87448	classification transducer
+-2.87448	transducer and
+-2.87448	and attention
+-2.87448	attention based
+-2.87448	based encoder
+-2.87448	encoder decoder
+-2.87448	decoder architectures
+-2.87448	architectures </s>
+-2.87448	<s> wav2vec
+-2.87448	wav2vec 2
+-2.87448	2 0
+-2.87448	0 hubert
+-2.87448	hubert and
+-2.87448	and whisper
+-2.87448	whisper are
+-2.87448	are self
+-2.87448	self supervised
+-2.87448	supervised or
+-2.87448	or weakly
+-2.87448	weakly supervised
+-2.87448	supervised speech
+-2.87448	speech encoders
+-2.87448	encoders </s>
+-2.87448	<s> conformer
+-2.87448	conformer combines
+-2.87448	combines convolution
+-2.87448	convolution with
+-2.87448	with self
+-2.87448	self attention
+-2.87448	attention to
+-2.87448	to capture
+-2.87448	capture local
+-2.87448	local and
+-2.87448	and global
+-2.87448	global dependencies
+-2.87448	dependencies efficiently
+-2.87448	efficiently </s>
+-2.87448	<s> language
+-2.57345	language identification
+-2.87448	identification models
+-2.87448	models predict
+-2.87448	predict the
+-2.87448	the language
+-2.87448	language of
+-2.87448	of short
+-2.87448	short speech
+-2.57345	speech segments
+-2.87448	segments using
+-2.87448	using i
+-2.87448	i vectors
+-2.87448	vectors x
+-2.87448	x vectors
+-2.87448	vectors and
+-2.87448	and deep
+-2.87448	deep neural
+-2.87448	neural embeddings
+-2.87448	embeddings </s>
+-2.87448	<s> code
+-2.87448	code switching
+-2.87448	switching occurs
+-2.87448	occurs when
+-2.87448	when bilingual
+-2.87448	bilingual speakers
+-2.87448	speakers switch
+-2.87448	switch between
+-2.87448	between languages
+-2.87448	languages within
+-2.87448	within an
+-2.87448	an utterance
+-2.87448	utterance particularly
+-2.87448	particularly common
+-2.87448	common in
+-2.87448	in indian
+-2.87448	indian academic
+-2.87448	academic discourse
+-2.87448	discourse </s>
+-2.87448	<s> text
+-2.57345	text to
+-2.87448	to speech
+-2.87448	synthesis maps
+-2.87448	maps text
+-2.87448	to acoustic
+-2.57345	acoustic features
+-2.87448	features using
+-2.87448	using tacotron
+-2.87448	tacotron fastspeech
+-2.87448	fastspeech vits
+-2.87448	vits or
+-2.87448	or yourtts
+-2.87448	yourtts followed
+-2.57345	by a
+-2.87448	a neural
+-2.87448	neural vocoder
+-2.87448	vocoder such
+-2.87448	as hifigan
+-2.87448	hifigan or
+-2.87448	or waveglow
+-2.87448	waveglow </s>
+-2.57345	<s> voice
+-2.57345	voice cloning
+-2.87448	cloning uses
+-2.87448	uses a
+-2.87448	a reference
+-2.87448	reference speaker
+-2.57345	speaker embedding
+-2.87448	embedding such
+-2.57345	as a
+-2.87448	a d
+-2.87448	d vector
+-2.87448	vector or
+-2.87448	or x
+-2.87448	x vector
+-2.87448	vector to
+-2.87448	to condition
+-2.87448	condition synthesis
+-2.87448	synthesis in
+-2.57345	in a
+-2.87448	a zero
+-2.57345	zero shot
+-2.87448	shot manner
+-2.87448	manner </s>
+-2.87448	<s> dynamic
+-2.87448	dynamic time
+-2.87448	time warping
+-2.87448	warping aligns
+-2.87448	aligns two
+-2.87448	two time
+-2.87448	time series
+-2.87448	series of
+-2.87448	of different
+-2.87448	different lengths
+-2.87448	lengths and
+-2.57345	and is
+-2.87448	is widely
+-2.87448	widely used
+-2.87448	used in
+-2.87448	in prosody
+-2.87448	prosody transfer
+-2.57345	transfer and
+-2.87448	and template
+-2.87448	template matching
+-2.87448	matching </s>
+-2.87448	<s> fundamental
+-2.87448	fundamental frequency
+-2.87448	frequency f0
+-2.87448	f0 and
+-2.87448	and energy
+-2.87448	energy contours
+-2.87448	contours characterise
+-2.87448	characterise intonation
+-2.87448	intonation and
+-2.87448	and prosody
+-2.87448	prosody </s>
+-2.87448	<s> international
+-2.87448	international phonetic
+-2.87448	phonetic alphabet
+-2.87448	alphabet ipa
+-2.87448	ipa provides
+-2.87448	provides a
+-2.87448	a uniform
+-2.87448	uniform phonemic
+-2.87448	phonemic representation
+-2.87448	representation across
+-2.87448	across languages
+-2.87448	languages </s>
+-2.87448	<s> grapheme
+-2.87448	grapheme to
+-2.87448	to phoneme
+-2.87448	phoneme g2p
+-2.87448	g2p models
+-2.87448	models convert
+-2.87448	convert written
+-2.87448	written text
+-2.87448	text into
+-2.87448	into phoneme
+-2.87448	phoneme sequences
+-2.87448	sequences </s>
+-2.87448	<s> for
+-2.87448	for low
+-2.87448	low resource
+-2.87448	resource languages
+-2.87448	languages like
+-2.87448	like maithili
+-2.87448	maithili santhali
+-2.87448	santhali gondi
+-2.87448	gondi and
+-2.87448	and bhojpuri
+-2.87448	bhojpuri we
+-2.87448	we leverage
+-2.87448	leverage cross
+-2.87448	cross lingual
+-2.87448	lingual transfer
+-2.87448	and parallel
+-2.87448	parallel corpora
+-2.87448	corpora </s>
+-2.87448	<s> automatic
+-2.87448	recognition word
+-2.57345	word error
+-2.39736	error rate
+-2.87448	rate wer
+-2.87448	wer is
+-2.87448	the primary
+-2.87448	primary evaluation
+-2.87448	evaluation metric
+-2.87448	metric </s>
+-2.87448	mel cepstral
+-2.87448	cepstral distortion
+-2.87448	distortion mcd
+-2.87448	mcd measures
+-2.87448	measures the
+-2.87448	the spectral
+-2.87448	spectral distance
+-2.87448	distance between
+-2.87448	between reference
+-2.87448	reference and
+-2.87448	and synthesized
+-2.87448	synthesized speech
+-2.87448	speech </s>
+-2.87448	<s> equal
+-2.87448	equal error
+-2.87448	rate eer
+-2.87448	eer is
+-2.87448	is a
+-2.87448	a balanced
+-2.87448	balanced measure
+-2.87448	measure of
+-2.87448	of performance
+-2.87448	performance for
+-2.87448	for verification
+-2.87448	verification and
+-2.87448	and spoof
+-2.57345	spoof detection
+-2.87448	detection systems
+-2.87448	systems </s>
+-2.87448	<s> anti
+-2.87448	anti spoofing
+-2.87448	spoofing countermeasures
+-2.87448	countermeasures rely
+-2.87448	rely on
+-2.87448	on linear
+-2.87448	linear frequency
+-2.87448	coefficients lfcc
+-2.87448	lfcc constant
+-2.87448	constant q
+-2.87448	q cepstral
+-2.87448	coefficients cqcc
+-2.87448	cqcc and
+-2.87448	and phase
+-2.87448	phase based
+-2.87448	based features
+-2.87448	features </s>
+-2.87448	<s> adversarial
+-2.87448	adversarial examples
+-2.87448	examples can
+-2.57345	can be
+-2.87448	be crafted
+-2.87448	crafted using
+-2.57345	using the
+-2.87448	the fast
+-2.87448	fast gradient
+-2.87448	gradient sign
+-2.87448	sign method
+-2.87448	method fgsm
+-2.87448	fgsm to
+-2.87448	to fool
+-2.87448	fool neural
+-2.87448	neural speech
+-2.87448	speech classifiers
+-2.87448	classifiers with
+-2.87448	with imperceptible
+-2.87448	imperceptible perturbations
+-2.87448	perturbations </s>
+-2.87448	<s> deep
+-2.87448	deep filter
+-2.87448	filter net
+-2.87448	net performs
+-2.87448	performs real
+-2.87448	real time
+-2.87448	time speech
+-2.87448	speech enhancement
+-2.87448	enhancement using
+-2.87448	using deep
+-2.87448	deep learning
+-2.57345	learning and
+-2.87448	is robust
+-2.87448	robust to
+-2.87448	to non
+-2.87448	non stationary
+-2.87448	stationary noise
+-2.87448	noise </s>
+-2.87448	<s> spectral
+-2.87448	spectral subtraction
+-2.87448	subtraction was
+-2.87448	was proposed
+-2.87448	proposed by
+-2.87448	by boll
+-2.87448	boll in
+-2.87448	in nineteen
+-2.87448	nineteen seventy
+-2.87448	seventy nine
+-2.87448	nine for
+-2.87448	for suppressing
+-2.87448	suppressing additive
+-2.87448	additive noise
+-2.87448	noise by
+-2.87448	by subtracting
+-2.87448	subtracting an
+-2.87448	an estimated
+-2.87448	estimated noise
+-2.87448	noise magnitude
+-2.87448	magnitude spectrum
+-2.87448	spectrum </s>
+-2.87448	voice activity
+-2.87448	activity detection
+-2.87448	detection separates
+-2.87448	separates speech
+-2.87448	speech from
+-2.87448	from non
+-2.87448	non speech
+-2.57345	segments </s>
+-2.87448	<s> n
+-2.87448	n gram
+-2.87448	gram language
+-2.87448	language models
+-2.87448	models assign
+-2.87448	assign probabilities
+-2.87448	probabilities to
+-2.87448	to word
+-2.87448	word sequences
+-2.87448	sequences using
+-2.87448	the markov
+-2.87448	markov assumption
+-2.87448	assumption and
+-2.87448	and kneser
+-2.87448	kneser ney
+-2.87448	ney smoothing
+-2.87448	smoothing </s>
+-2.87448	<s> constrained
+-2.87448	constrained beam
+-2.87448	beam search
+-2.87448	search or
+-2.87448	or logit
+-2.87448	logit biasing
+-2.87448	biasing injects
+-2.87448	injects domain
+-2.87448	domain knowledge
+-2.87448	knowledge into
+-2.87448	into the
+-2.87448	the decoder
+-2.87448	decoder of
+-2.57345	of a
+-2.87448	a pretrained
+-2.87448	pretrained speech
+-2.87448	speech model
+-2.87448	model </s>
+-2.87448	the teacher
+-2.87448	teacher dictates
+-2.87448	dictates that
+-2.87448	that students
+-2.87448	students should
+-2.87448	should focus
+-2.87448	focus on
+-2.87448	on signal
+-2.87448	processing machine
+-2.87448	machine learning
+-2.87448	and linguistics
+-2.87448	linguistics as
+-2.87448	as the
+-2.87448	the three
+-2.87448	three pillars
+-2.87448	pillars of
+-2.57345	the course
+-2.57345	course </s>
+-2.87448	<s> during
+-2.87448	during the
+-2.87448	the assignment
+-2.87448	assignment you
+-2.87448	you will
+-2.87448	will implement
+-2.87448	implement preprocessing
+-2.87448	preprocessing language
+-2.87448	identification transcription
+-2.87448	transcription phonetic
+-2.87448	phonetic mapping
+-2.87448	mapping translation
+-2.87448	translation and
+-2.87448	and synthesis
+-2.87448	synthesis </s>
+-2.87448	the pipeline
+-2.87448	pipeline integrates
+-2.87448	integrates robust
+-2.87448	robust noise
+-2.87448	noise handling
+-2.87448	handling code
+-2.87448	code switched
+-2.87448	switched recognition
+-2.87448	recognition zero
+-2.87448	shot voice
+-2.87448	cloning and
+-2.87448	and adversarial
+-2.87448	adversarial robustness
+-2.87448	robustness </s>
+-2.87448	<s> evaluation
+-2.87448	evaluation requires
+-2.87448	requires a
+-2.87448	a word
+-2.87448	rate below
+-2.87448	below fifteen
+-2.87448	fifteen percent
+-2.57345	percent for
+-2.87448	for english
+-2.87448	english segments
+-2.87448	segments and
+-2.87448	and twenty
+-2.87448	twenty five
+-2.87448	five percent
+-2.87448	for hindi
+-2.87448	hindi segments
+-2.87448	mel spectrograms
+-2.87448	spectrograms log
+-2.87448	log filter
+-2.87448	filter banks
+-2.87448	banks and
+-2.87448	and formants
+-2.87448	formants are
+-2.87448	are key
+-2.87448	key acoustic
+-2.87448	features used
+-2.87448	used throughout
+-2.87448	throughout the
+-2.87448	tract can
+-2.87448	be modelled
+-2.87448	modelled as
+-2.87448	a linear
+-2.87448	linear time
+-2.87448	time varying
+-2.87448	varying system
+-2.87448	system excited
+-2.87448	excited by
+-2.87448	a periodic
+-2.87448	periodic or
+-2.87448	or aperiodic
+-2.87448	aperiodic source
+-2.87448	source </s>
+-2.87448	<s> formants
+-2.87448	formants correspond
+-2.87448	correspond to
+-2.87448	to the
+-2.87448	the resonant
+-2.87448	resonant frequencies
+-2.87448	frequencies of
+-2.87448	tract </s>
+-2.87448	<s> phonemes
+-2.87448	phonemes are
+-2.87448	are the
+-2.87448	the smallest
+-2.87448	smallest units
+-2.87448	units of
+-2.87448	of sound
+-2.87448	sound that
+-2.87448	that distinguish
+-2.87448	distinguish meaning
+-2.87448	meaning in
+-2.87448	a language
+-2.87448	language </s>
+-2.87448	<s> allophones
+-2.87448	allophones are
+-2.87448	are variants
+-2.87448	variants of
+-2.87448	a phoneme
+-2.87448	phoneme in
+-2.87448	in different
+-2.87448	different phonetic
+-2.87448	phonetic contexts
+-2.87448	contexts </s>
+-2.87448	<s> prosody
+-2.87448	prosody includes
+-2.87448	includes pitch
+-2.87448	pitch duration
+-2.87448	duration and
+-2.87448	and loudness
+-2.87448	loudness patterns
+-2.87448	patterns that
+-2.87448	that convey
+-2.87448	convey meaning
+-2.87448	meaning beyond
+-2.87448	beyond words
+-2.87448	words </s>
+-2.87448	<s> speaker
+-2.87448	embedding networks
+-2.87448	networks are
+-2.87448	are trained
+-2.87448	trained with
+-2.87448	with generalized
+-2.87448	generalized end
+-2.87448	end loss
+-2.87448	loss or
+-2.87448	or angular
+-2.87448	angular margin
+-2.87448	margin losses
+-2.87448	losses like
+-2.87448	like aam
+-2.87448	aam softmax
+-2.87448	softmax </s>
+-2.87448	<s> spoof
+-2.87448	detection protects
+-2.87448	protects biometric
+-2.87448	biometric systems
+-2.87448	systems from
+-2.87448	from replay
+-2.87448	replay synthesis
+-2.87448	and conversion
+-2.87448	conversion attacks
+-2.87448	attacks </s>
+
+\3-grams:
+-1.26019	<s> <s> <s>
+-2.85126	<s> <s> speech
+-2.85126	<s> speech understanding
+-2.85126	speech understanding is
+-2.85126	understanding is the
+-2.85126	is the branch
+-2.85126	the branch of
+-2.85126	branch of artificial
+-2.85126	of artificial intelligence
+-2.85126	artificial intelligence that
+-2.85126	intelligence that studies
+-2.85126	that studies automatic
+-2.85126	studies automatic speech
+-2.37414	automatic speech recognition
+-2.85126	speech recognition speaker
+-2.85126	recognition speaker recognition
+-2.85126	speaker recognition speaker
+-2.85126	recognition speaker diarization
+-2.85126	speaker diarization speech
+-2.85126	diarization speech synthesis
+-2.85126	speech synthesis and
+-2.85126	synthesis and spoken
+-2.85126	and spoken language
+-2.85126	spoken language understanding
+-2.85126	language understanding </s>
+-2.15229	<s> <s> the
+-2.85126	<s> the signal
+-2.85126	the signal processing
+-2.85126	signal processing pipeline
+-2.85126	processing pipeline begins
+-2.85126	pipeline begins with
+-2.85126	begins with framing
+-2.85126	with framing windowing
+-2.85126	framing windowing and
+-2.85126	windowing and computing
+-2.85126	and computing the
+-2.85126	computing the short
+-2.85126	the short time
+-2.85126	short time fourier
+-2.85126	time fourier transform
+-2.85126	fourier transform followed
+-2.85126	transform followed by
+-2.85126	followed by mel
+-2.85126	by mel filterbank
+-2.85126	mel filterbank and
+-2.85126	filterbank and logarithmic
+-2.85126	and logarithmic compression
+-2.85126	logarithmic compression </s>
+-2.37414	<s> <s> mel
+-2.85126	<s> mel frequency
+-2.85126	mel frequency cepstral
+-2.55023	frequency cepstral coefficients
+-2.85126	cepstral coefficients are
+-2.85126	coefficients are derived
+-2.85126	are derived from
+-2.85126	derived from the
+-2.85126	from the discrete
+-2.85126	the discrete cosine
+-2.85126	discrete cosine transform
+-2.85126	cosine transform of
+-2.85126	transform of the
+-2.85126	of the log
+-2.85126	the log mel
+-2.85126	log mel spectrogram
+-2.85126	mel spectrogram </s>
+-2.85126	<s> the cepstrum
+-2.85126	the cepstrum separates
+-2.85126	cepstrum separates the
+-2.85126	separates the excitation
+-2.85126	the excitation and
+-2.85126	excitation and the
+-2.85126	and the vocal
+-2.37414	the vocal tract
+-2.85126	vocal tract contribution
+-2.85126	tract contribution by
+-2.85126	contribution by the
+-2.85126	by the liftering
+-2.85126	the liftering operation
+-2.85126	liftering operation </s>
+-2.85126	<s> <s> stochastic
+-2.85126	<s> stochastic models
+-2.85126	stochastic models such
+-2.85126	models such as
+-2.85126	such as hidden
+-2.85126	as hidden markov
+-2.85126	hidden markov models
+-2.85126	markov models and
+-2.85126	models and gaussian
+-2.85126	and gaussian mixture
+-2.85126	gaussian mixture models
+-2.85126	mixture models were
+-2.85126	models were standard
+-2.85126	were standard in
+-2.85126	standard in classical
+-2.85126	in classical automatic
+-2.85126	classical automatic speech
+-2.85126	speech recognition </s>
+-2.85126	<s> <s> modern
+-2.85126	<s> modern end
+-2.85126	modern end to
+-2.55023	end to end
+-2.85126	to end systems
+-2.85126	end systems use
+-2.85126	systems use connectionist
+-2.85126	use connectionist temporal
+-2.85126	connectionist temporal classification
+-2.85126	temporal classification transducer
+-2.85126	classification transducer and
+-2.85126	transducer and attention
+-2.85126	and attention based
+-2.85126	attention based encoder
+-2.85126	based encoder decoder
+-2.85126	encoder decoder architectures
+-2.85126	decoder architectures </s>
+-2.85126	<s> <s> wav2vec
+-2.85126	<s> wav2vec 2
+-2.85126	wav2vec 2 0
+-2.85126	2 0 hubert
+-2.85126	0 hubert and
+-2.85126	hubert and whisper
+-2.85126	and whisper are
+-2.85126	whisper are self
+-2.85126	are self supervised
+-2.85126	self supervised or
+-2.85126	supervised or weakly
+-2.85126	or weakly supervised
+-2.85126	weakly supervised speech
+-2.85126	supervised speech encoders
+-2.85126	speech encoders </s>
+-2.85126	<s> <s> conformer
+-2.85126	<s> conformer combines
+-2.85126	conformer combines convolution
+-2.85126	combines convolution with
+-2.85126	convolution with self
+-2.85126	with self attention
+-2.85126	self attention to
+-2.85126	attention to capture
+-2.85126	to capture local
+-2.85126	capture local and
+-2.85126	local and global
+-2.85126	and global dependencies
+-2.85126	global dependencies efficiently
+-2.85126	dependencies efficiently </s>
+-2.85126	<s> <s> language
+-2.85126	<s> language identification
+-2.85126	language identification models
+-2.85126	identification models predict
+-2.85126	models predict the
+-2.85126	predict the language
+-2.85126	the language of
+-2.85126	language of short
+-2.85126	of short speech
+-2.85126	short speech segments
+-2.85126	speech segments using
+-2.85126	segments using i
+-2.85126	using i vectors
+-2.85126	i vectors x
+-2.85126	vectors x vectors
+-2.85126	x vectors and
+-2.85126	vectors and deep
+-2.85126	and deep neural
+-2.85126	deep neural embeddings
+-2.85126	neural embeddings </s>
+-2.85126	<s> <s> code
+-2.85126	<s> code switching
+-2.85126	code switching occurs
+-2.85126	switching occurs when
+-2.85126	occurs when bilingual
+-2.85126	when bilingual speakers
+-2.85126	bilingual speakers switch
+-2.85126	speakers switch between
+-2.85126	switch between languages
+-2.85126	between languages within
+-2.85126	languages within an
+-2.85126	within an utterance
+-2.85126	an utterance particularly
+-2.85126	utterance particularly common
+-2.85126	particularly common in
+-2.85126	common in indian
+-2.85126	in indian academic
+-2.85126	indian academic discourse
+-2.85126	academic discourse </s>
+-2.85126	<s> <s> text
+-2.85126	<s> text to
+-2.85126	text to speech
+-2.85126	to speech synthesis
+-2.85126	speech synthesis maps
+-2.85126	synthesis maps text
+-2.85126	maps text to
+-2.85126	text to acoustic
+-2.85126	to acoustic features
+-2.85126	acoustic features using
+-2.85126	features using tacotron
+-2.85126	using tacotron fastspeech
+-2.85126	tacotron fastspeech vits
+-2.85126	fastspeech vits or
+-2.85126	vits or yourtts
+-2.85126	or yourtts followed
+-2.85126	yourtts followed by
+-2.85126	followed by a
+-2.85126	by a neural
+-2.85126	a neural vocoder
+-2.85126	neural vocoder such
+-2.85126	vocoder such as
+-2.85126	such as hifigan
+-2.85126	as hifigan or
+-2.85126	hifigan or waveglow
+-2.85126	or waveglow </s>
+-2.55023	<s> <s> voice
+-2.85126	<s> voice cloning
+-2.85126	voice cloning uses
+-2.85126	cloning uses a
+-2.85126	uses a reference
+-2.85126	a reference speaker
+-2.85126	reference speaker embedding
+-2.85126	speaker embedding such
+-2.85126	embedding such as
+-2.85126	such as a
+-2.85126	as a d
+-2.85126	a d vector
+-2.85126	d vector or
+-2.85126	vector or x
+-2.85126	or x vector
+-2.85126	x vector to
+-2.85126	vector to condition
+-2.85126	to condition synthesis
+-2.85126	condition synthesis in
+-2.85126	synthesis in a
+-2.85126	in a zero
+-2.85126	a zero shot
+-2.85126	zero shot manner
+-2.85126	shot manner </s>
+-2.85126	<s> <s> dynamic
+-2.85126	<s> dynamic time
+-2.85126	dynamic time warping
+-2.85126	time warping aligns
+-2.85126	warping aligns two
+-2.85126	aligns two time
+-2.85126	two time series
+-2.85126	time series of
+-2.85126	series of different
+-2.85126	of different lengths
+-2.85126	different lengths and
+-2.85126	lengths and is
+-2.85126	and is widely
+-2.85126	is widely used
+-2.85126	widely used in
+-2.85126	used in prosody
+-2.85126	in prosody transfer
+-2.85126	prosody transfer and
+-2.85126	transfer and template
+-2.85126	and template matching
+-2.85126	template matching </s>
+-2.85126	<s> <s> fundamental
+-2.85126	<s> fundamental frequency
+-2.85126	fundamental frequency f0
+-2.85126	frequency f0 and
+-2.85126	f0 and energy
+-2.85126	and energy contours
+-2.85126	energy contours characterise
+-2.85126	contours characterise intonation
+-2.85126	characterise intonation and
+-2.85126	intonation and prosody
+-2.85126	and prosody </s>
+-2.85126	<s> <s> international
+-2.85126	<s> international phonetic
+-2.85126	international phonetic alphabet
+-2.85126	phonetic alphabet ipa
+-2.85126	alphabet ipa provides
+-2.85126	ipa provides a
+-2.85126	provides a uniform
+-2.85126	a uniform phonemic
+-2.85126	uniform phonemic representation
+-2.85126	phonemic representation across
+-2.85126	representation across languages
+-2.85126	across languages </s>
+-2.85126	<s> <s> grapheme
+-2.85126	<s> grapheme to
+-2.85126	grapheme to phoneme
+-2.85126	to phoneme g2p
+-2.85126	phoneme g2p models
+-2.85126	g2p models convert
+-2.85126	models convert written
+-2.85126	convert written text
+-2.85126	written text into
+-2.85126	text into phoneme
+-2.85126	into phoneme sequences
+-2.85126	phoneme sequences </s>
+-2.85126	<s> <s> for
+-2.85126	<s> for low
+-2.85126	for low resource
+-2.85126	low resource languages
+-2.85126	resource languages like
+-2.85126	languages like maithili
+-2.85126	like maithili santhali
+-2.85126	maithili santhali gondi
+-2.85126	santhali gondi and
+-2.85126	gondi and bhojpuri
+-2.85126	and bhojpuri we
+-2.85126	bhojpuri we leverage
+-2.85126	we leverage cross
+-2.85126	leverage cross lingual
+-2.85126	cross lingual transfer
+-2.85126	lingual transfer and
+-2.85126	transfer and parallel
+-2.85126	and parallel corpora
+-2.85126	parallel corpora </s>
+-2.85126	<s> <s> automatic
+-2.85126	<s> automatic speech
+-2.85126	speech recognition word
+-2.85126	recognition word error
+-2.55023	word error rate
+-2.85126	error rate wer
+-2.85126	rate wer is
+-2.85126	wer is the
+-2.85126	is the primary
+-2.85126	the primary evaluation
+-2.85126	primary evaluation metric
+-2.85126	evaluation metric </s>
+-2.85126	<s> mel cepstral
+-2.85126	mel cepstral distortion
+-2.85126	cepstral distortion mcd
+-2.85126	distortion mcd measures
+-2.85126	mcd measures the
+-2.85126	measures the spectral
+-2.85126	the spectral distance
+-2.85126	spectral distance between
+-2.85126	distance between reference
+-2.85126	between reference and
+-2.85126	reference and synthesized
+-2.85126	and synthesized speech
+-2.85126	synthesized speech </s>
+-2.85126	<s> <s> equal
+-2.85126	<s> equal error
+-2.85126	equal error rate
+-2.85126	error rate eer
+-2.85126	rate eer is
+-2.85126	eer is a
+-2.85126	is a balanced
+-2.85126	a balanced measure
+-2.85126	balanced measure of
+-2.85126	measure of performance
+-2.85126	of performance for
+-2.85126	performance for verification
+-2.85126	for verification and
+-2.85126	verification and spoof
+-2.85126	and spoof detection
+-2.85126	spoof detection systems
+-2.85126	detection systems </s>
+-2.85126	<s> <s> anti
+-2.85126	<s> anti spoofing
+-2.85126	anti spoofing countermeasures
+-2.85126	spoofing countermeasures rely
+-2.85126	countermeasures rely on
+-2.85126	rely on linear
+-2.85126	on linear frequency
+-2.85126	linear frequency cepstral
+-2.85126	cepstral coefficients lfcc
+-2.85126	coefficients lfcc constant
+-2.85126	lfcc constant q
+-2.85126	constant q cepstral
+-2.85126	q cepstral coefficients
+-2.85126	cepstral coefficients cqcc
+-2.85126	coefficients cqcc and
+-2.85126	cqcc and phase
+-2.85126	and phase based
+-2.85126	phase based features
+-2.85126	based features </s>
+-2.85126	<s> <s> adversarial
+-2.85126	<s> adversarial examples
+-2.85126	adversarial examples can
+-2.85126	examples can be
+-2.85126	can be crafted
+-2.85126	be crafted using
+-2.85126	crafted using the
+-2.85126	using the fast
+-2.85126	the fast gradient
+-2.85126	fast gradient sign
+-2.85126	gradient sign method
+-2.85126	sign method fgsm
+-2.85126	method fgsm to
+-2.85126	fgsm to fool
+-2.85126	to fool neural
+-2.85126	fool neural speech
+-2.85126	neural speech classifiers
+-2.85126	speech classifiers with
+-2.85126	classifiers with imperceptible
+-2.85126	with imperceptible perturbations
+-2.85126	imperceptible perturbations </s>
+-2.85126	<s> <s> deep
+-2.85126	<s> deep filter
+-2.85126	deep filter net
+-2.85126	filter net performs
+-2.85126	net performs real
+-2.85126	performs real time
+-2.85126	real time speech
+-2.85126	time speech enhancement
+-2.85126	speech enhancement using
+-2.85126	enhancement using deep
+-2.85126	using deep learning
+-2.85126	deep learning and
+-2.85126	learning and is
+-2.85126	and is robust
+-2.85126	is robust to
+-2.85126	robust to non
+-2.85126	to non stationary
+-2.85126	non stationary noise
+-2.85126	stationary noise </s>
+-2.85126	<s> <s> spectral
+-2.85126	<s> spectral subtraction
+-2.85126	spectral subtraction was
+-2.85126	subtraction was proposed
+-2.85126	was proposed by
+-2.85126	proposed by boll
+-2.85126	by boll in
+-2.85126	boll in nineteen
+-2.85126	in nineteen seventy
+-2.85126	nineteen seventy nine
+-2.85126	seventy nine for
+-2.85126	nine for suppressing
+-2.85126	for suppressing additive
+-2.85126	suppressing additive noise
+-2.85126	additive noise by
+-2.85126	noise by subtracting
+-2.85126	by subtracting an
+-2.85126	subtracting an estimated
+-2.85126	an estimated noise
+-2.85126	estimated noise magnitude
+-2.85126	noise magnitude spectrum
+-2.85126	magnitude spectrum </s>
+-2.85126	<s> voice activity
+-2.85126	voice activity detection
+-2.85126	activity detection separates
+-2.85126	detection separates speech
+-2.85126	separates speech from
+-2.85126	speech from non
+-2.85126	from non speech
+-2.85126	non speech segments
+-2.85126	speech segments </s>
+-2.85126	<s> <s> n
+-2.85126	<s> n gram
+-2.85126	n gram language
+-2.85126	gram language models
+-2.85126	language models assign
+-2.85126	models assign probabilities
+-2.85126	assign probabilities to
+-2.85126	probabilities to word
+-2.85126	to word sequences
+-2.85126	word sequences using
+-2.85126	sequences using the
+-2.85126	using the markov
+-2.85126	the markov assumption
+-2.85126	markov assumption and
+-2.85126	assumption and kneser
+-2.85126	and kneser ney
+-2.85126	kneser ney smoothing
+-2.85126	ney smoothing </s>
+-2.85126	<s> <s> constrained
+-2.85126	<s> constrained beam
+-2.85126	constrained beam search
+-2.85126	beam search or
+-2.85126	search or logit
+-2.85126	or logit biasing
+-2.85126	logit biasing injects
+-2.85126	biasing injects domain
+-2.85126	injects domain knowledge
+-2.85126	domain knowledge into
+-2.85126	knowledge into the
+-2.85126	into the decoder
+-2.85126	the decoder of
+-2.85126	decoder of a
+-2.85126	of a pretrained
+-2.85126	a pretrained speech
+-2.85126	pretrained speech model
+-2.85126	speech model </s>
+-2.85126	<s> the teacher
+-2.85126	the teacher dictates
+-2.85126	teacher dictates that
+-2.85126	dictates that students
+-2.85126	that students should
+-2.85126	students should focus
+-2.85126	should focus on
+-2.85126	focus on signal
+-2.85126	on signal processing
+-2.85126	signal processing machine
+-2.85126	processing machine learning
+-2.85126	machine learning and
+-2.85126	learning and linguistics
+-2.85126	and linguistics as
+-2.85126	linguistics as the
+-2.85126	as the three
+-2.85126	the three pillars
+-2.85126	three pillars of
+-2.85126	pillars of the
+-2.85126	of the course
+-2.55023	the course </s>
+-2.85126	<s> <s> during
+-2.85126	<s> during the
+-2.85126	during the assignment
+-2.85126	the assignment you
+-2.85126	assignment you will
+-2.85126	you will implement
+-2.85126	will implement preprocessing
+-2.85126	implement preprocessing language
+-2.85126	preprocessing language identification
+-2.85126	language identification transcription
+-2.85126	identification transcription phonetic
+-2.85126	transcription phonetic mapping
+-2.85126	phonetic mapping translation
+-2.85126	mapping translation and
+-2.85126	translation and synthesis
+-2.85126	and synthesis </s>
+-2.85126	<s> the pipeline
+-2.85126	the pipeline integrates
+-2.85126	pipeline integrates robust
+-2.85126	integrates robust noise
+-2.85126	robust noise handling
+-2.85126	noise handling code
+-2.85126	handling code switched
+-2.85126	code switched recognition
+-2.85126	switched recognition zero
+-2.85126	recognition zero shot
+-2.85126	zero shot voice
+-2.85126	shot voice cloning
+-2.85126	voice cloning and
+-2.85126	cloning and adversarial
+-2.85126	and adversarial robustness
+-2.85126	adversarial robustness </s>
+-2.85126	<s> <s> evaluation
+-2.85126	<s> evaluation requires
+-2.85126	evaluation requires a
+-2.85126	requires a word
+-2.85126	a word error
+-2.85126	error rate below
+-2.85126	rate below fifteen
+-2.85126	below fifteen percent
+-2.85126	fifteen percent for
+-2.85126	percent for english
+-2.85126	for english segments
+-2.85126	english segments and
+-2.85126	segments and twenty
+-2.85126	and twenty five
+-2.85126	twenty five percent
+-2.85126	five percent for
+-2.85126	percent for hindi
+-2.85126	for hindi segments
+-2.85126	hindi segments </s>
+-2.85126	<s> mel spectrograms
+-2.85126	mel spectrograms log
+-2.85126	spectrograms log filter
+-2.85126	log filter banks
+-2.85126	filter banks and
+-2.85126	banks and formants
+-2.85126	and formants are
+-2.85126	formants are key
+-2.85126	are key acoustic
+-2.85126	key acoustic features
+-2.85126	acoustic features used
+-2.85126	features used throughout
+-2.85126	used throughout the
+-2.85126	throughout the course
+-2.85126	<s> the vocal
+-2.85126	vocal tract can
+-2.85126	tract can be
+-2.85126	can be modelled
+-2.85126	be modelled as
+-2.85126	modelled as a
+-2.85126	as a linear
+-2.85126	a linear time
+-2.85126	linear time varying
+-2.85126	time varying system
+-2.85126	varying system excited
+-2.85126	system excited by
+-2.85126	excited by a
+-2.85126	by a periodic
+-2.85126	a periodic or
+-2.85126	periodic or aperiodic
+-2.85126	or aperiodic source
+-2.85126	aperiodic source </s>
+-2.85126	<s> <s> formants
+-2.85126	<s> formants correspond
+-2.85126	formants correspond to
+-2.85126	correspond to the
+-2.85126	to the resonant
+-2.85126	the resonant frequencies
+-2.85126	resonant frequencies of
+-2.85126	frequencies of the
+-2.85126	of the vocal
+-2.85126	vocal tract </s>
+-2.85126	<s> <s> phonemes
+-2.85126	<s> phonemes are
+-2.85126	phonemes are the
+-2.85126	are the smallest
+-2.85126	the smallest units
+-2.85126	smallest units of
+-2.85126	units of sound
+-2.85126	of sound that
+-2.85126	sound that distinguish
+-2.85126	that distinguish meaning
+-2.85126	distinguish meaning in
+-2.85126	meaning in a
+-2.85126	in a language
+-2.85126	a language </s>
+-2.85126	<s> <s> allophones
+-2.85126	<s> allophones are
+-2.85126	allophones are variants
+-2.85126	are variants of
+-2.85126	variants of a
+-2.85126	of a phoneme
+-2.85126	a phoneme in
+-2.85126	phoneme in different
+-2.85126	in different phonetic
+-2.85126	different phonetic contexts
+-2.85126	phonetic contexts </s>
+-2.85126	<s> <s> prosody
+-2.85126	<s> prosody includes
+-2.85126	prosody includes pitch
+-2.85126	includes pitch duration
+-2.85126	pitch duration and
+-2.85126	duration and loudness
+-2.85126	and loudness patterns
+-2.85126	loudness patterns that
+-2.85126	patterns that convey
+-2.85126	that convey meaning
+-2.85126	convey meaning beyond
+-2.85126	meaning beyond words
+-2.85126	beyond words </s>
+-2.85126	<s> <s> speaker
+-2.85126	<s> speaker embedding
+-2.85126	speaker embedding networks
+-2.85126	embedding networks are
+-2.85126	networks are trained
+-2.85126	are trained with
+-2.85126	trained with generalized
+-2.85126	with generalized end
+-2.85126	generalized end to
+-2.85126	to end loss
+-2.85126	end loss or
+-2.85126	loss or angular
+-2.85126	or angular margin
+-2.85126	angular margin losses
+-2.85126	margin losses like
+-2.85126	losses like aam
+-2.85126	like aam softmax
+-2.85126	aam softmax </s>
+-2.85126	<s> <s> spoof
+-2.85126	<s> spoof detection
+-2.85126	spoof detection protects
+-2.85126	detection protects biometric
+-2.85126	protects biometric systems
+-2.85126	biometric systems from
+-2.85126	systems from replay
+-2.85126	from replay synthesis
+-2.85126	replay synthesis and
+-2.85126	synthesis and conversion
+-2.85126	and conversion attacks
+-2.85126	conversion attacks </s>
+
+\4-grams:
+-2.82672	<s> <s> <s> speech
+-2.82672	<s> <s> speech understanding
+-2.82672	<s> speech understanding is
+-2.82672	speech understanding is the
+-2.82672	understanding is the branch
+-2.82672	is the branch of
+-2.82672	the branch of artificial
+-2.82672	branch of artificial intelligence
+-2.82672	of artificial intelligence that
+-2.82672	artificial intelligence that studies
+-2.82672	intelligence that studies automatic
+-2.82672	that studies automatic speech
+-2.82672	studies automatic speech recognition
+-2.82672	automatic speech recognition speaker
+-2.82672	speech recognition speaker recognition
+-2.82672	recognition speaker recognition speaker
+-2.82672	speaker recognition speaker diarization
+-2.82672	recognition speaker diarization speech
+-2.82672	speaker diarization speech synthesis
+-2.82672	diarization speech synthesis and
+-2.82672	speech synthesis and spoken
+-2.82672	synthesis and spoken language
+-2.82672	and spoken language understanding
+-2.82672	spoken language understanding </s>
+-2.12775	<s> <s> <s> the
+-2.82672	<s> <s> the signal
+-2.82672	<s> the signal processing
+-2.82672	the signal processing pipeline
+-2.82672	signal processing pipeline begins
+-2.82672	processing pipeline begins with
+-2.82672	pipeline begins with framing
+-2.82672	begins with framing windowing
+-2.82672	with framing windowing and
+-2.82672	framing windowing and computing
+-2.82672	windowing and computing the
+-2.82672	and computing the short
+-2.82672	computing the short time
+-2.82672	the short time fourier
+-2.82672	short time fourier transform
+-2.82672	time fourier transform followed
+-2.82672	fourier transform followed by
+-2.82672	transform followed by mel
+-2.82672	followed by mel filterbank
+-2.82672	by mel filterbank and
+-2.82672	mel filterbank and logarithmic
+-2.82672	filterbank and logarithmic compression
+-2.82672	and logarithmic compression </s>
+-2.34960	<s> <s> <s> mel
+-2.82672	<s> <s> mel frequency
+-2.82672	<s> mel frequency cepstral
+-2.82672	mel frequency cepstral coefficients
+-2.82672	frequency cepstral coefficients are
+-2.82672	cepstral coefficients are derived
+-2.82672	coefficients are derived from
+-2.82672	are derived from the
+-2.82672	derived from the discrete
+-2.82672	from the discrete cosine
+-2.82672	the discrete cosine transform
+-2.82672	discrete cosine transform of
+-2.82672	cosine transform of the
+-2.82672	transform of the log
+-2.82672	of the log mel
+-2.82672	the log mel spectrogram
+-2.82672	log mel spectrogram </s>
+-2.82672	<s> <s> the cepstrum
+-2.82672	<s> the cepstrum separates
+-2.82672	the cepstrum separates the
+-2.82672	cepstrum separates the excitation
+-2.82672	separates the excitation and
+-2.82672	the excitation and the
+-2.82672	excitation and the vocal
+-2.82672	and the vocal tract
+-2.82672	the vocal tract contribution
+-2.82672	vocal tract contribution by
+-2.82672	tract contribution by the
+-2.82672	contribution by the liftering
+-2.82672	by the liftering operation
+-2.82672	the liftering operation </s>
+-2.82672	<s> <s> <s> stochastic
+-2.82672	<s> <s> stochastic models
+-2.82672	<s> stochastic models such
+-2.82672	stochastic models such as
+-2.82672	models such as hidden
+-2.82672	such as hidden markov
+-2.82672	as hidden markov models
+-2.82672	hidden markov models and
+-2.82672	markov models and gaussian
+-2.82672	models and gaussian mixture
+-2.82672	and gaussian mixture models
+-2.82672	gaussian mixture models were
+-2.82672	mixture models were standard
+-2.82672	models were standard in
+-2.82672	were standard in classical
+-2.82672	standard in classical automatic
+-2.82672	in classical automatic speech
+-2.82672	classical automatic speech recognition
+-2.82672	automatic speech recognition </s>
+-2.82672	<s> <s> <s> modern
+-2.82672	<s> <s> modern end
+-2.82672	<s> modern end to
+-2.82672	modern end to end
+-2.82672	end to end systems
+-2.82672	to end systems use
+-2.82672	end systems use connectionist
+-2.82672	systems use connectionist temporal
+-2.82672	use connectionist temporal classification
+-2.82672	connectionist temporal classification transducer
+-2.82672	temporal classification transducer and
+-2.82672	classification transducer and attention
+-2.82672	transducer and attention based
+-2.82672	and attention based encoder
+-2.82672	attention based encoder decoder
+-2.82672	based encoder decoder architectures
+-2.82672	encoder decoder architectures </s>
+-2.82672	<s> <s> <s> wav2vec
+-2.82672	<s> <s> wav2vec 2
+-2.82672	<s> wav2vec 2 0
+-2.82672	wav2vec 2 0 hubert
+-2.82672	2 0 hubert and
+-2.82672	0 hubert and whisper
+-2.82672	hubert and whisper are
+-2.82672	and whisper are self
+-2.82672	whisper are self supervised
+-2.82672	are self supervised or
+-2.82672	self supervised or weakly
+-2.82672	supervised or weakly supervised
+-2.82672	or weakly supervised speech
+-2.82672	weakly supervised speech encoders
+-2.82672	supervised speech encoders </s>
+-2.82672	<s> <s> <s> conformer
+-2.82672	<s> <s> conformer combines
+-2.82672	<s> conformer combines convolution
+-2.82672	conformer combines convolution with
+-2.82672	combines convolution with self
+-2.82672	convolution with self attention
+-2.82672	with self attention to
+-2.82672	self attention to capture
+-2.82672	attention to capture local
+-2.82672	to capture local and
+-2.82672	capture local and global
+-2.82672	local and global dependencies
+-2.82672	and global dependencies efficiently
+-2.82672	global dependencies efficiently </s>
+-2.82672	<s> <s> <s> language
+-2.82672	<s> <s> language identification
+-2.82672	<s> language identification models
+-2.82672	language identification models predict
+-2.82672	identification models predict the
+-2.82672	models predict the language
+-2.82672	predict the language of
+-2.82672	the language of short
+-2.82672	language of short speech
+-2.82672	of short speech segments
+-2.82672	short speech segments using
+-2.82672	speech segments using i
+-2.82672	segments using i vectors
+-2.82672	using i vectors x
+-2.82672	i vectors x vectors
+-2.82672	vectors x vectors and
+-2.82672	x vectors and deep
+-2.82672	vectors and deep neural
+-2.82672	and deep neural embeddings
+-2.82672	deep neural embeddings </s>
+-2.82672	<s> <s> <s> code
+-2.82672	<s> <s> code switching
+-2.82672	<s> code switching occurs
+-2.82672	code switching occurs when
+-2.82672	switching occurs when bilingual
+-2.82672	occurs when bilingual speakers
+-2.82672	when bilingual speakers switch
+-2.82672	bilingual speakers switch between
+-2.82672	speakers switch between languages
+-2.82672	switch between languages within
+-2.82672	between languages within an
+-2.82672	languages within an utterance
+-2.82672	within an utterance particularly
+-2.82672	an utterance particularly common
+-2.82672	utterance particularly common in
+-2.82672	particularly common in indian
+-2.82672	common in indian academic
+-2.82672	in indian academic discourse
+-2.82672	indian academic discourse </s>
+-2.82672	<s> <s> <s> text
+-2.82672	<s> <s> text to
+-2.82672	<s> text to speech
+-2.82672	text to speech synthesis
+-2.82672	to speech synthesis maps
+-2.82672	speech synthesis maps text
+-2.82672	synthesis maps text to
+-2.82672	maps text to acoustic
+-2.82672	text to acoustic features
+-2.82672	to acoustic features using
+-2.82672	acoustic features using tacotron
+-2.82672	features using tacotron fastspeech
+-2.82672	using tacotron fastspeech vits
+-2.82672	tacotron fastspeech vits or
+-2.82672	fastspeech vits or yourtts
+-2.82672	vits or yourtts followed
+-2.82672	or yourtts followed by
+-2.82672	yourtts followed by a
+-2.82672	followed by a neural
+-2.82672	by a neural vocoder
+-2.82672	a neural vocoder such
+-2.82672	neural vocoder such as
+-2.82672	vocoder such as hifigan
+-2.82672	such as hifigan or
+-2.82672	as hifigan or waveglow
+-2.82672	hifigan or waveglow </s>
+-2.52569	<s> <s> <s> voice
+-2.82672	<s> <s> voice cloning
+-2.82672	<s> voice cloning uses
+-2.82672	voice cloning uses a
+-2.82672	cloning uses a reference
+-2.82672	uses a reference speaker
+-2.82672	a reference speaker embedding
+-2.82672	reference speaker embedding such
+-2.82672	speaker embedding such as
+-2.82672	embedding such as a
+-2.82672	such as a d
+-2.82672	as a d vector
+-2.82672	a d vector or
+-2.82672	d vector or x
+-2.82672	vector or x vector
+-2.82672	or x vector to
+-2.82672	x vector to condition
+-2.82672	vector to condition synthesis
+-2.82672	to condition synthesis in
+-2.82672	condition synthesis in a
+-2.82672	synthesis in a zero
+-2.82672	in a zero shot
+-2.82672	a zero shot manner
+-2.82672	zero shot manner </s>
+-2.82672	<s> <s> <s> dynamic
+-2.82672	<s> <s> dynamic time
+-2.82672	<s> dynamic time warping
+-2.82672	dynamic time warping aligns
+-2.82672	time warping aligns two
+-2.82672	warping aligns two time
+-2.82672	aligns two time series
+-2.82672	two time series of
+-2.82672	time series of different
+-2.82672	series of different lengths
+-2.82672	of different lengths and
+-2.82672	different lengths and is
+-2.82672	lengths and is widely
+-2.82672	and is widely used
+-2.82672	is widely used in
+-2.82672	widely used in prosody
+-2.82672	used in prosody transfer
+-2.82672	in prosody transfer and
+-2.82672	prosody transfer and template
+-2.82672	transfer and template matching
+-2.82672	and template matching </s>
+-2.82672	<s> <s> <s> fundamental
+-2.82672	<s> <s> fundamental frequency
+-2.82672	<s> fundamental frequency f0
+-2.82672	fundamental frequency f0 and
+-2.82672	frequency f0 and energy
+-2.82672	f0 and energy contours
+-2.82672	and energy contours characterise
+-2.82672	energy contours characterise intonation
+-2.82672	contours characterise intonation and
+-2.82672	characterise intonation and prosody
+-2.82672	intonation and prosody </s>
+-2.82672	<s> <s> <s> international
+-2.82672	<s> <s> international phonetic
+-2.82672	<s> international phonetic alphabet
+-2.82672	international phonetic alphabet ipa
+-2.82672	phonetic alphabet ipa provides
+-2.82672	alphabet ipa provides a
+-2.82672	ipa provides a uniform
+-2.82672	provides a uniform phonemic
+-2.82672	a uniform phonemic representation
+-2.82672	uniform phonemic representation across
+-2.82672	phonemic representation across languages
+-2.82672	representation across languages </s>
+-2.82672	<s> <s> <s> grapheme
+-2.82672	<s> <s> grapheme to
+-2.82672	<s> grapheme to phoneme
+-2.82672	grapheme to phoneme g2p
+-2.82672	to phoneme g2p models
+-2.82672	phoneme g2p models convert
+-2.82672	g2p models convert written
+-2.82672	models convert written text
+-2.82672	convert written text into
+-2.82672	written text into phoneme
+-2.82672	text into phoneme sequences
+-2.82672	into phoneme sequences </s>
+-2.82672	<s> <s> <s> for
+-2.82672	<s> <s> for low
+-2.82672	<s> for low resource
+-2.82672	for low resource languages
+-2.82672	low resource languages like
+-2.82672	resource languages like maithili
+-2.82672	languages like maithili santhali
+-2.82672	like maithili santhali gondi
+-2.82672	maithili santhali gondi and
+-2.82672	santhali gondi and bhojpuri
+-2.82672	gondi and bhojpuri we
+-2.82672	and bhojpuri we leverage
+-2.82672	bhojpuri we leverage cross
+-2.82672	we leverage cross lingual
+-2.82672	leverage cross lingual transfer
+-2.82672	cross lingual transfer and
+-2.82672	lingual transfer and parallel
+-2.82672	transfer and parallel corpora
+-2.82672	and parallel corpora </s>
+-2.82672	<s> <s> <s> automatic
+-2.82672	<s> <s> automatic speech
+-2.82672	<s> automatic speech recognition
+-2.82672	automatic speech recognition word
+-2.82672	speech recognition word error
+-2.82672	recognition word error rate
+-2.82672	word error rate wer
+-2.82672	error rate wer is
+-2.82672	rate wer is the
+-2.82672	wer is the primary
+-2.82672	is the primary evaluation
+-2.82672	the primary evaluation metric
+-2.82672	primary evaluation metric </s>
+-2.82672	<s> <s> mel cepstral
+-2.82672	<s> mel cepstral distortion
+-2.82672	mel cepstral distortion mcd
+-2.82672	cepstral distortion mcd measures
+-2.82672	distortion mcd measures the
+-2.82672	mcd measures the spectral
+-2.82672	measures the spectral distance
+-2.82672	the spectral distance between
+-2.82672	spectral distance between reference
+-2.82672	distance between reference and
+-2.82672	between reference and synthesized
+-2.82672	reference and synthesized speech
+-2.82672	and synthesized speech </s>
+-2.82672	<s> <s> <s> equal
+-2.82672	<s> <s> equal error
+-2.82672	<s> equal error rate
+-2.82672	equal error rate eer
+-2.82672	error rate eer is
+-2.82672	rate eer is a
+-2.82672	eer is a balanced
+-2.82672	is a balanced measure
+-2.82672	a balanced measure of
+-2.82672	balanced measure of performance
+-2.82672	measure of performance for
+-2.82672	of performance for verification
+-2.82672	performance for verification and
+-2.82672	for verification and spoof
+-2.82672	verification and spoof detection
+-2.82672	and spoof detection systems
+-2.82672	spoof detection systems </s>
+-2.82672	<s> <s> <s> anti
+-2.82672	<s> <s> anti spoofing
+-2.82672	<s> anti spoofing countermeasures
+-2.82672	anti spoofing countermeasures rely
+-2.82672	spoofing countermeasures rely on
+-2.82672	countermeasures rely on linear
+-2.82672	rely on linear frequency
+-2.82672	on linear frequency cepstral
+-2.82672	linear frequency cepstral coefficients
+-2.82672	frequency cepstral coefficients lfcc
+-2.82672	cepstral coefficients lfcc constant
+-2.82672	coefficients lfcc constant q
+-2.82672	lfcc constant q cepstral
+-2.82672	constant q cepstral coefficients
+-2.82672	q cepstral coefficients cqcc
+-2.82672	cepstral coefficients cqcc and
+-2.82672	coefficients cqcc and phase
+-2.82672	cqcc and phase based
+-2.82672	and phase based features
+-2.82672	phase based features </s>
+-2.82672	<s> <s> <s> adversarial
+-2.82672	<s> <s> adversarial examples
+-2.82672	<s> adversarial examples can
+-2.82672	adversarial examples can be
+-2.82672	examples can be crafted
+-2.82672	can be crafted using
+-2.82672	be crafted using the
+-2.82672	crafted using the fast
+-2.82672	using the fast gradient
+-2.82672	the fast gradient sign
+-2.82672	fast gradient sign method
+-2.82672	gradient sign method fgsm
+-2.82672	sign method fgsm to
+-2.82672	method fgsm to fool
+-2.82672	fgsm to fool neural
+-2.82672	to fool neural speech
+-2.82672	fool neural speech classifiers
+-2.82672	neural speech classifiers with
+-2.82672	speech classifiers with imperceptible
+-2.82672	classifiers with imperceptible perturbations
+-2.82672	with imperceptible perturbations </s>
+-2.82672	<s> <s> <s> deep
+-2.82672	<s> <s> deep filter
+-2.82672	<s> deep filter net
+-2.82672	deep filter net performs
+-2.82672	filter net performs real
+-2.82672	net performs real time
+-2.82672	performs real time speech
+-2.82672	real time speech enhancement
+-2.82672	time speech enhancement using
+-2.82672	speech enhancement using deep
+-2.82672	enhancement using deep learning
+-2.82672	using deep learning and
+-2.82672	deep learning and is
+-2.82672	learning and is robust
+-2.82672	and is robust to
+-2.82672	is robust to non
+-2.82672	robust to non stationary
+-2.82672	to non stationary noise
+-2.82672	non stationary noise </s>
+-2.82672	<s> <s> <s> spectral
+-2.82672	<s> <s> spectral subtraction
+-2.82672	<s> spectral subtraction was
+-2.82672	spectral subtraction was proposed
+-2.82672	subtraction was proposed by
+-2.82672	was proposed by boll
+-2.82672	proposed by boll in
+-2.82672	by boll in nineteen
+-2.82672	boll in nineteen seventy
+-2.82672	in nineteen seventy nine
+-2.82672	nineteen seventy nine for
+-2.82672	seventy nine for suppressing
+-2.82672	nine for suppressing additive
+-2.82672	for suppressing additive noise
+-2.82672	suppressing additive noise by
+-2.82672	additive noise by subtracting
+-2.82672	noise by subtracting an
+-2.82672	by subtracting an estimated
+-2.82672	subtracting an estimated noise
+-2.82672	an estimated noise magnitude
+-2.82672	estimated noise magnitude spectrum
+-2.82672	noise magnitude spectrum </s>
+-2.82672	<s> <s> voice activity
+-2.82672	<s> voice activity detection
+-2.82672	voice activity detection separates
+-2.82672	activity detection separates speech
+-2.82672	detection separates speech from
+-2.82672	separates speech from non
+-2.82672	speech from non speech
+-2.82672	from non speech segments
+-2.82672	non speech segments </s>
+-2.82672	<s> <s> <s> n
+-2.82672	<s> <s> n gram
+-2.82672	<s> n gram language
+-2.82672	n gram language models
+-2.82672	gram language models assign
+-2.82672	language models assign probabilities
+-2.82672	models assign probabilities to
+-2.82672	assign probabilities to word
+-2.82672	probabilities to word sequences
+-2.82672	to word sequences using
+-2.82672	word sequences using the
+-2.82672	sequences using the markov
+-2.82672	using the markov assumption
+-2.82672	the markov assumption and
+-2.82672	markov assumption and kneser
+-2.82672	assumption and kneser ney
+-2.82672	and kneser ney smoothing
+-2.82672	kneser ney smoothing </s>
+-2.82672	<s> <s> <s> constrained
+-2.82672	<s> <s> constrained beam
+-2.82672	<s> constrained beam search
+-2.82672	constrained beam search or
+-2.82672	beam search or logit
+-2.82672	search or logit biasing
+-2.82672	or logit biasing injects
+-2.82672	logit biasing injects domain
+-2.82672	biasing injects domain knowledge
+-2.82672	injects domain knowledge into
+-2.82672	domain knowledge into the
+-2.82672	knowledge into the decoder
+-2.82672	into the decoder of
+-2.82672	the decoder of a
+-2.82672	decoder of a pretrained
+-2.82672	of a pretrained speech
+-2.82672	a pretrained speech model
+-2.82672	pretrained speech model </s>
+-2.82672	<s> <s> the teacher
+-2.82672	<s> the teacher dictates
+-2.82672	the teacher dictates that
+-2.82672	teacher dictates that students
+-2.82672	dictates that students should
+-2.82672	that students should focus
+-2.82672	students should focus on
+-2.82672	should focus on signal
+-2.82672	focus on signal processing
+-2.82672	on signal processing machine
+-2.82672	signal processing machine learning
+-2.82672	processing machine learning and
+-2.82672	machine learning and linguistics
+-2.82672	learning and linguistics as
+-2.82672	and linguistics as the
+-2.82672	linguistics as the three
+-2.82672	as the three pillars
+-2.82672	the three pillars of
+-2.82672	three pillars of the
+-2.82672	pillars of the course
+-2.82672	of the course </s>
+-2.82672	<s> <s> <s> during
+-2.82672	<s> <s> during the
+-2.82672	<s> during the assignment
+-2.82672	during the assignment you
+-2.82672	the assignment you will
+-2.82672	assignment you will implement
+-2.82672	you will implement preprocessing
+-2.82672	will implement preprocessing language
+-2.82672	implement preprocessing language identification
+-2.82672	preprocessing language identification transcription
+-2.82672	language identification transcription phonetic
+-2.82672	identification transcription phonetic mapping
+-2.82672	transcription phonetic mapping translation
+-2.82672	phonetic mapping translation and
+-2.82672	mapping translation and synthesis
+-2.82672	translation and synthesis </s>
+-2.82672	<s> <s> the pipeline
+-2.82672	<s> the pipeline integrates
+-2.82672	the pipeline integrates robust
+-2.82672	pipeline integrates robust noise
+-2.82672	integrates robust noise handling
+-2.82672	robust noise handling code
+-2.82672	noise handling code switched
+-2.82672	handling code switched recognition
+-2.82672	code switched recognition zero
+-2.82672	switched recognition zero shot
+-2.82672	recognition zero shot voice
+-2.82672	zero shot voice cloning
+-2.82672	shot voice cloning and
+-2.82672	voice cloning and adversarial
+-2.82672	cloning and adversarial robustness
+-2.82672	and adversarial robustness </s>
+-2.82672	<s> <s> <s> evaluation
+-2.82672	<s> <s> evaluation requires
+-2.82672	<s> evaluation requires a
+-2.82672	evaluation requires a word
+-2.82672	requires a word error
+-2.82672	a word error rate
+-2.82672	word error rate below
+-2.82672	error rate below fifteen
+-2.82672	rate below fifteen percent
+-2.82672	below fifteen percent for
+-2.82672	fifteen percent for english
+-2.82672	percent for english segments
+-2.82672	for english segments and
+-2.82672	english segments and twenty
+-2.82672	segments and twenty five
+-2.82672	and twenty five percent
+-2.82672	twenty five percent for
+-2.82672	five percent for hindi
+-2.82672	percent for hindi segments
+-2.82672	for hindi segments </s>
+-2.82672	<s> <s> mel spectrograms
+-2.82672	<s> mel spectrograms log
+-2.82672	mel spectrograms log filter
+-2.82672	spectrograms log filter banks
+-2.82672	log filter banks and
+-2.82672	filter banks and formants
+-2.82672	banks and formants are
+-2.82672	and formants are key
+-2.82672	formants are key acoustic
+-2.82672	are key acoustic features
+-2.82672	key acoustic features used
+-2.82672	acoustic features used throughout
+-2.82672	features used throughout the
+-2.82672	used throughout the course
+-2.82672	throughout the course </s>
+-2.82672	<s> <s> the vocal
+-2.82672	<s> the vocal tract
+-2.82672	the vocal tract can
+-2.82672	vocal tract can be
+-2.82672	tract can be modelled
+-2.82672	can be modelled as
+-2.82672	be modelled as a
+-2.82672	modelled as a linear
+-2.82672	as a linear time
+-2.82672	a linear time varying
+-2.82672	linear time varying system
+-2.82672	time varying system excited
+-2.82672	varying system excited by
+-2.82672	system excited by a
+-2.82672	excited by a periodic
+-2.82672	by a periodic or
+-2.82672	a periodic or aperiodic
+-2.82672	periodic or aperiodic source
+-2.82672	or aperiodic source </s>
+-2.82672	<s> <s> <s> formants
+-2.82672	<s> <s> formants correspond
+-2.82672	<s> formants correspond to
+-2.82672	formants correspond to the
+-2.82672	correspond to the resonant
+-2.82672	to the resonant frequencies
+-2.82672	the resonant frequencies of
+-2.82672	resonant frequencies of the
+-2.82672	frequencies of the vocal
+-2.82672	of the vocal tract
+-2.82672	the vocal tract </s>
+-2.82672	<s> <s> <s> phonemes
+-2.82672	<s> <s> phonemes are
+-2.82672	<s> phonemes are the
+-2.82672	phonemes are the smallest
+-2.82672	are the smallest units
+-2.82672	the smallest units of
+-2.82672	smallest units of sound
+-2.82672	units of sound that
+-2.82672	of sound that distinguish
+-2.82672	sound that distinguish meaning
+-2.82672	that distinguish meaning in
+-2.82672	distinguish meaning in a
+-2.82672	meaning in a language
+-2.82672	in a language </s>
+-2.82672	<s> <s> <s> allophones
+-2.82672	<s> <s> allophones are
+-2.82672	<s> allophones are variants
+-2.82672	allophones are variants of
+-2.82672	are variants of a
+-2.82672	variants of a phoneme
+-2.82672	of a phoneme in
+-2.82672	a phoneme in different
+-2.82672	phoneme in different phonetic
+-2.82672	in different phonetic contexts
+-2.82672	different phonetic contexts </s>
+-2.82672	<s> <s> <s> prosody
+-2.82672	<s> <s> prosody includes
+-2.82672	<s> prosody includes pitch
+-2.82672	prosody includes pitch duration
+-2.82672	includes pitch duration and
+-2.82672	pitch duration and loudness
+-2.82672	duration and loudness patterns
+-2.82672	and loudness patterns that
+-2.82672	loudness patterns that convey
+-2.82672	patterns that convey meaning
+-2.82672	that convey meaning beyond
+-2.82672	convey meaning beyond words
+-2.82672	meaning beyond words </s>
+-2.82672	<s> <s> <s> speaker
+-2.82672	<s> <s> speaker embedding
+-2.82672	<s> speaker embedding networks
+-2.82672	speaker embedding networks are
+-2.82672	embedding networks are trained
+-2.82672	networks are trained with
+-2.82672	are trained with generalized
+-2.82672	trained with generalized end
+-2.82672	with generalized end to
+-2.82672	generalized end to end
+-2.82672	end to end loss
+-2.82672	to end loss or
+-2.82672	end loss or angular
+-2.82672	loss or angular margin
+-2.82672	or angular margin losses
+-2.82672	angular margin losses like
+-2.82672	margin losses like aam
+-2.82672	losses like aam softmax
+-2.82672	like aam softmax </s>
+-2.82672	<s> <s> <s> spoof
+-2.82672	<s> <s> spoof detection
+-2.82672	<s> spoof detection protects
+-2.82672	spoof detection protects biometric
+-2.82672	detection protects biometric systems
+-2.82672	protects biometric systems from
+-2.82672	biometric systems from replay
+-2.82672	systems from replay synthesis
+-2.82672	from replay synthesis and
+-2.82672	replay synthesis and conversion
+-2.82672	synthesis and conversion attacks
+-2.82672	and conversion attacks </s>
+
+\end\

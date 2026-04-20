@@ -1,0 +1,39 @@
+speech understanding is the branch of artificial intelligence that studies automatic speech recognition speaker recognition speaker diarization speech synthesis and spoken language understanding
+the signal processing pipeline begins with framing windowing and computing the short time fourier transform followed by mel filterbank and logarithmic compression
+mel frequency cepstral coefficients are derived from the discrete cosine transform of the log mel spectrogram
+the cepstrum separates the excitation and the vocal tract contribution by the liftering operation
+stochastic models such as hidden markov models and gaussian mixture models were standard in classical automatic speech recognition
+modern end to end systems use connectionist temporal classification transducer and attention based encoder decoder architectures
+wav2vec 2.0 hubert and whisper are self supervised or weakly supervised speech encoders
+conformer combines convolution with self attention to capture local and global dependencies efficiently
+language identification models predict the language of short speech segments using i vectors x vectors and deep neural embeddings
+code switching occurs when bilingual speakers switch between languages within an utterance particularly common in indian academic discourse
+text to speech synthesis maps text to acoustic features using tacotron fastspeech vits or yourtts followed by a neural vocoder such as hifigan or waveglow
+voice cloning uses a reference speaker embedding such as a d vector or x vector to condition synthesis in a zero shot manner
+dynamic time warping aligns two time series of different lengths and is widely used in prosody transfer and template matching
+fundamental frequency f0 and energy contours characterise intonation and prosody
+international phonetic alphabet ipa provides a uniform phonemic representation across languages
+grapheme to phoneme g2p models convert written text into phoneme sequences
+for low resource languages like maithili santhali gondi and bhojpuri we leverage cross lingual transfer and parallel corpora
+automatic speech recognition word error rate wer is the primary evaluation metric
+mel cepstral distortion mcd measures the spectral distance between reference and synthesized speech
+equal error rate eer is a balanced measure of performance for verification and spoof detection systems
+anti spoofing countermeasures rely on linear frequency cepstral coefficients lfcc constant q cepstral coefficients cqcc and phase based features
+adversarial examples can be crafted using the fast gradient sign method fgsm to fool neural speech classifiers with imperceptible perturbations
+deep filter net performs real time speech enhancement using deep learning and is robust to non stationary noise
+spectral subtraction was proposed by boll in nineteen seventy nine for suppressing additive noise by subtracting an estimated noise magnitude spectrum
+voice activity detection separates speech from non speech segments
+n gram language models assign probabilities to word sequences using the markov assumption and kneser ney smoothing
+constrained beam search or logit biasing injects domain knowledge into the decoder of a pretrained speech model
+the teacher dictates that students should focus on signal processing machine learning and linguistics as the three pillars of the course
+during the assignment you will implement preprocessing language identification transcription phonetic mapping translation and synthesis
+the pipeline integrates robust noise handling code switched recognition zero shot voice cloning and adversarial robustness
+evaluation requires a word error rate below fifteen percent for english segments and twenty five percent for hindi segments
+mel spectrograms log filter banks and formants are key acoustic features used throughout the course
+the vocal tract can be modelled as a linear time varying system excited by a periodic or aperiodic source
+formants correspond to the resonant frequencies of the vocal tract
+phonemes are the smallest units of sound that distinguish meaning in a language
+allophones are variants of a phoneme in different phonetic contexts
+prosody includes pitch duration and loudness patterns that convey meaning beyond words
+speaker embedding networks are trained with generalized end to end loss or angular margin losses like aam softmax
+spoof detection protects biometric systems from replay synthesis and conversion attacks

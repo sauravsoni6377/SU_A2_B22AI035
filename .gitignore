@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.ipynb_checkpoints/
+
+# Training data we don't commit
+data/lid_raw/
+data/cm/
+data/cm_test/
+data/embeddings/*.npy
+checkpoints/ecapa/
+outputs/tts_chunks/
+
+# Keep small artefacts that are nice to have in git
+# (audio files under data/raw/, data/processed/, outputs/ ARE committed — they
+# are part of the required submission manifest)
+!outputs/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!checkpoints/.gitkeep

@@ -1,0 +1,86 @@
+# SU Assignment 2 — master config
+seed: 42
+device: cuda            # falls back to cpu if unavailable
+
+audio:
+  sr: 16000             # internal working rate
+  synth_sr: 22050       # final output rate (>= required 22.05kHz)
+  frame_ms: 20          # LID frame resolution
+  hop_ms: 10
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  corpus_dir: data/corpus
+  lecture_url: "https://youtu.be/ZPUtA3W-7_I"
+  lecture_start: "02:20:00"
+  lecture_end:   "02:30:00"
+  original_wav: data/raw/original_segment.wav
+  student_ref_wav: data/raw/student_voice_ref.wav
+
+preprocessing:
+  denoiser: deepfilternet   # {deepfilternet, spectral_sub}
+  normalize_dbfs: -23.0
+  high_pass_hz: 80
+
+lid:
+  model: conformer_multihead
+  n_classes: 3            # EN, HI, SIL(silence)
+  hidden: 256
+  n_heads: 4
+  n_layers: 4
+  lr: 3.0e-4
+  batch_size: 32
+  epochs: 30
+  weight_decay: 1.0e-4
+  ckpt: checkpoints/lid_best.pt
+  target_f1: 0.85
+  switch_tolerance_ms: 200
+  smoothing_ms: 80        # median filter over posteriors
+
+stt:
+  backbone: openai/whisper-medium  # was large-v3; medium is ~5x faster on MPS with comparable WER for this domain
+  language_hint: null      # auto (we override with per-frame LID)
+  beam_size: 5
+  ngram:
+    order: 4
+    arpa_path: checkpoints/ngram.arpa
+    vocab_path: checkpoints/ngram_vocab.txt
+    lambda_lm: 0.6         # logit-bias strength
+    boost_whitelist: data/corpus/tech_terms.txt
+
+phonetics:
+  target_lrl: mai          # Maithili (Devanagari)
+  ipa_cache: checkpoints/hinglish_ipa.json
+  parallel_corpus: data/corpus/parallel_corpus.json
+  translation_backend: dict_then_nllb   # use dict for tech terms, NLLB for rest
+
+tts:
+  backend: mms              # {mms, yourtts, vits}
+  mms_model: facebook/mms-tts-mai
+  speaker_embed: xvector    # {xvector, dvector}
+  embedder_ckpt: checkpoints/spk_embedder.pt
+  prosody:
+    dtw_metric: euclidean
+    warp_f0: true
+    warp_energy: true
+
+antispoof:
+  feature: lfcc             # {lfcc, cqcc}
+  n_mfcc: 60
+  hidden: 128
+  epochs: 20
+  ckpt: checkpoints/cm_best.pt
+
+adversarial:
+  attack: fgsm
+  target_snr_db: 40
+  max_epsilon: 0.05
+  step: 0.0005
+
+outputs:
+  transcript_json: outputs/transcript.json
+  ipa_txt: outputs/ipa_string.txt
+  lrl_txt: outputs/maithili_text.txt
+  cloned_wav: outputs/output_LRL_cloned.wav
+  report_dir: report
