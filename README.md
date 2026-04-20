@@ -93,7 +93,7 @@ python scripts/evaluate.py --cfg configs/config.yaml
 - pyworld — F0 extraction.
 - ASVspoof 2019 baseline (LFCC-GMM/CM) — Todisco et al.
 
-See `report/report.md` for full references.
+See `report/SU_A2_Report.pdf` for full references.
 
 ## Notes
 
